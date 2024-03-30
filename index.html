@@ -1,1 +1,40 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <input type='text' id='display' />
+    <table>
+      <tr>
+        <td><button onclick='addToDisplay(7)'>7</button></td>
+        <td><button onclick='addToDisplay(8)'>8</button></td>
+        <td><button onclick='addToDisplay(9)'>9</button></td>
+        <td><button onclick='addToDisplay(&quot;*&quot;)'>*</button></td>
+      </tr>
+      <tr>
+        <td><button onclick='addToDisplay(4)'>4</button></td>
+        <td><button onclick='addToDisplay(5)'>5</button></td>
+        <td><button onclick='addToDisplay(6)'>6</button></td>
+        <td><button onclick='addToDisplay(&quot;/&quot;)'>/</button></td>
+      </tr>
+      <tr>
+        <td><button onclick='addToDisplay(1)'>1</button></td>
+        <td><button onclick='addToDisplay(2)'>2</button></td>
+        <td><button onclick='addToDisplay(3)'>3</button></td>
+        <td><button onclick='addToDisplay(&quot;+&quot;)'>+</button></td>
+      </tr>
+      <tr>
+        <td><button onclick='clearDisplay()' value='C'>C</button></td>
+        <td><button onclick='addToDisplay(0)'>0</button></td>
+        <td><button onclick='addToDisplay(&quot;.&quot;)'>.</button></td>
+        <td><button onclick='addToDisplay(&quot;-&quot;)'>-</button></td>
+      </tr>
+      <tr>
+        <td colspan='2'><button onclick='backspace()' value='Backspace'>Backspace</button></td>
+        <td colspan='2'><button onclick='calculate()' value='='>=</button></td>
+      </tr>
+    </table>
+   <script src="script.js"></script>
+  </body>
+</html>
