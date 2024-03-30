@@ -1,1 +1,57 @@
-
+      button {
+        transition: transform 0.2s;
+        width:40px;
+        height:40px;
+        cursor: pointer;
+      }
+      button:hover {
+        transform: scale(0.97);
+      }
+      button:active {
+        transform: scale(0.9);
+      }
+      button:hover[value='='] {
+        background-color: darkgreen;
+      }
+      #display {
+        height: 50px;
+        font-size: 25px;
+        width: 172px;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        border:1px solid grey;
+        border-radius:5px;
+        background-color:lightgrey;
+      }
+      #calculator-widget {
+        position: fixed;
+        width: 210px;
+        height: 330px;
+        border:0;
+      }
+      button[value='C'] {
+        background-color: #E91E63;
+        border:1px solid #ccc;
+        border-radius:2.5px;
+        color:white;
+				width:100%;
+      }
+      button[value='='] {
+        background-color: #4CAF50;
+        color: white;
+        border:1px solid #ccc;
+        border-radius:2.5px;
+				width:100%;
+      }
+			button[value='Backspace'] {
+			  width:100%;
+			}
+      table {
+        margin-top: 10px;
+      }
+      tr {
+        height: 40px;
+      }
+      td {
+        width: 40px;
+      }
